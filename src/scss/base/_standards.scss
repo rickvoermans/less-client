@@ -4,4 +4,15 @@
 
 html, body {
   height: 100%;
+  background-color: white !important;
+  font-family: $font-main;
 }
+
+$default-margin: 16px;
+
+$color-accent: #009CFF;
+$color-accent-for-gradient: #7CB1AD;
+
+$font-color-main-dark: black;
+$font-color-main-white: white;
+$font-color-not-active: #80CEFF;

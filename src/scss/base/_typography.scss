@@ -1,4 +1,8 @@
 /* Typography file for fonts e.g. */
 
-$font-header: 'Times New Roman';
-$font-reg: 'Corbel';
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url("/../../font/montserrat/Montserrat-Regular.otf") format('opentype');
+}
+
+$font-main: 'MontserratRegular';
