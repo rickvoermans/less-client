@@ -5,24 +5,15 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: white !important;
-  font-family: $font-main;
+  background-color: white;
 
   .progress-bar--material__primary {
-    background-color: blueviolet;
+    background-color: $font-color-main-white;
   }
 
   .progress-bar--material__secondary {
-    background-color: darkgoldenrod;
+    background-color: #7CB1AD;
     width: 100%;
+    opacity: 22%;
   }
 }
-
-$default-margin: 16px;
-
-$color-accent: #009CFF;
-$color-accent-for-gradient: #7CB1AD;
-
-$font-color-main-dark: black;
-$font-color-main-white: white;
-$font-color-not-active: #80CEFF;

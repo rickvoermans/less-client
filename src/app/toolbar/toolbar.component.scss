@@ -1,11 +1,13 @@
 @import "../../scss/main";
 
 ons-toolbar {
-   visibility: hidden;
+  visibility: hidden;
 
   .center {
     visibility: visible;
     text-align: center;
+    font-size: $title-margin;
+    font-family: $font-title;
   }
 
   .right, .left {
@@ -22,5 +24,20 @@ ons-toolbar {
     margin: auto;
     visibility: visible;
     text-align: center;
+
+    #level {
+      font-family: $font-title;
+      font-size: 75px;
+      height: 0;
+      padding-bottom: 22px;
+    }
+
+    #current-lvl {
+
+    }
+
+    #needed-xp {
+
+    }
   }
 }

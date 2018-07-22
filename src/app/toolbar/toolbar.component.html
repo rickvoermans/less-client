@@ -16,9 +16,15 @@
 </div>
 <div class="main-info">
   <div class="center-alignment">
-    <p>40</p>
-    <p>current level</p>
+    <p id="level">
+      4
+    </p>
+    <p id="current-lvl">
+      current level
+    </p>
     <ons-progress-bar [value]="val" secondary-value="300"></ons-progress-bar>
-    <p>Er is zoveel xp verdient</p>
+    <p id="needed-xp">
+      {{ needed_xp }} experience points (XP) until next level
+    </p>
   </div>
 </div>

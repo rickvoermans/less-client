@@ -1,8 +1,12 @@
 /* Typography file for fonts e.g. */
 
-@font-face {
-  font-family: 'MontserratRegular';
-  src: url("/../../font/montserrat/Montserrat-Regular.otf") format('opentype');
-}
+$font-title: 'IBM Plex Sans', sans-serif;
+$default-margin: 16px;
+$title-margin: 28px;
 
-$font-main: 'MontserratRegular';
+$color-accent: #009CFF;
+$color-accent-for-gradient: #7CB1AD;
+
+$font-color-main-dark: black;
+$font-color-main-white: white;
+$font-color-not-active: #80CEFF;

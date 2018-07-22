@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class ToolbarComponent implements OnInit {
   public val = 0;
+  public needed_xp = 10;
 
   constructor() {
     setInterval(() => {
