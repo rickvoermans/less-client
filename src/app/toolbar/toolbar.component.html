@@ -1,7 +1,7 @@
 <!-- Toolbar component -->
-<ons-page>
+<div class="toolbar-page">
   <ons-toolbar>
-    <div class="center">Junkie application</div>
+    <div class="center">Dashboard</div>
     <div class="left">
       <ons-toolbar-button>
         <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
@@ -9,8 +9,16 @@
     </div>
     <div class="right">
       <ons-toolbar-button>
-        <ons-icon icon="search, material:md-menu"></ons-icon>
+        <ons-icon icon="search"></ons-icon>
       </ons-toolbar-button>
     </div>
   </ons-toolbar>
-</ons-page>
+</div>
+<div class="main-info">
+  <div class="center-alignment">
+    <p>40</p>
+    <p>current level</p>
+    <ons-progress-bar [value]="val"></ons-progress-bar>
+    <p>Er is zoveel xp verdient</p>
+  </div>
+</div>
