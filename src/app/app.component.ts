@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  urlEncodedMsg = encodeURI('Hello mufakaaaa');
+  url = 'linknaaroverzichtaddict.com/userid';
+  urlEncodedMsg = encodeURI(`Visit my link, boyyyyy:\n${this.url}`);
 }
