@@ -30,15 +30,6 @@ html, body {
     text-align: center;
   }
 
-  .progress-bar--material__primary {
-    background-color: blueviolet;
-  }
-
-  .progress-bar--material__secondary {
-    background-color: darkgoldenrod;
-    width: 100%;
-  }
-
   h1 {
     font-size: 2.5rem;
     font-weight: 500;
@@ -64,3 +55,12 @@ html, body {
 
 
 }
+
+$default-margin: 16px;
+
+$color-accent: #009CFF;
+$color-accent-for-gradient: #7CB1AD;
+
+$font-color-main-dark: black;
+$font-color-main-white: white;
+$font-color-not-active: #80CEFF;
