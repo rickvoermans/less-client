@@ -2,6 +2,7 @@
 
 @import './typography';
 
+// Colors
 $default-margin: 16px; // = same as bootstraps '3' value in p-3 and m-3
 
 $color-accent: #009CFF;
@@ -11,11 +12,18 @@ $font-color-main-dark: black;
 $font-color-main-white: white;
 $font-color-not-active: #80CEFF;
 
+// Font sizes:
+$default-font-size: 16px;
+$font-size-level-number: 10rem;
+$font-size-small: 12px;
+$font-size-medium: 0.8rem; //Dashboard, tabs, text in tabs
+$font-size-current-lvl: 0.7rem;
+
 html, body {
   height: 100%;
   width: 100%;
   font-family: $default-font;
-  font-size: 16px;
+  font-size: $default-font-size;
   padding: 0; margin: 0;
 
   .container-fluid {
@@ -30,8 +38,10 @@ html, body {
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 500;
+    color: $font-color-main-white;
+    margin-bottom: 0.5rem;
   }
   h3 {
     font-size: 1.5rem;

@@ -1,9 +1,31 @@
 @import '../../../scss/main';
 
 .main-info {
-
   p {
     text-align: center;
-    color: white;
+    color: $font-color-main-white;
+    margin-bottom: 0.5rem;
+    margin-top: 0.8rem;
+  }
+
+  #level {
+    text-align: center;
+  }
+
+  #nextlvl-xp {
+    font-size: $font-size-small;
+  }
+
+  .progress {
+    margin-bottom: 0.5rem;
+    height: 0.4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 0.5rem;
+    background: rgba(255, 255, 255, 0.22);
+  }
+
+  .progress-bar {
+    background-color: rgba(255, 255, 255, 1);
   }
 }
