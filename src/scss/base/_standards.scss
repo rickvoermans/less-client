@@ -2,10 +2,9 @@
 
 @import './typography';
 
-$default-margin: 16px;
+$default-margin: 16px; // = same as bootstraps '3' value in p-3 and m-3
 
 $color-accent: #009CFF;
-
 $color-accent-for-gradient: #7CB1AD;
 
 $font-color-main-dark: black;
@@ -18,17 +17,6 @@ html, body {
   font-family: $default-font;
   font-size: 16px;
   padding: 0; margin: 0;
-
-  .container-fluid {
-    padding: 0;
-  }
-  .row {
-    margin: 0;
-  }
-  .col-1 {
-    padding: 0;
-    text-align: center;
-  }
 
   h1 {
     font-size: 2.5rem;
@@ -55,12 +43,3 @@ html, body {
 
 
 }
-
-$default-margin: 16px;
-
-$color-accent: #009CFF;
-$color-accent-for-gradient: #7CB1AD;
-
-$font-color-main-dark: black;
-$font-color-main-white: white;
-$font-color-not-active: #80CEFF;
