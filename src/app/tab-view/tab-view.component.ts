@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {PageCurrentComponent} from '../pages/page-current/page-current.component';
-import {CUSTOM_ELEMENTS_SCHEMA} from 'ngx-onsenui';
 
 @Component({
   selector: 'app-tab-view',
