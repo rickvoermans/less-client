@@ -2,6 +2,7 @@
 
 @import "../scss/main";
 
-.half-screen {
-  height: 50% !important;
+.gradient-bg {
+  background: linear-gradient($color-accent-for-gradient, $color-accent);
 }
+

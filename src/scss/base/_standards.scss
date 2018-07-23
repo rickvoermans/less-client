@@ -2,9 +2,33 @@
 
 @import './typography';
 
+$default-margin: 16px;
+
+$color-accent: #009CFF;
+
+$color-accent-for-gradient: #7CB1AD;
+
+$font-color-main-dark: black;
+$font-color-main-white: white;
+$font-color-not-active: #80CEFF;
+
 html, body {
   height: 100%;
   width: 100%;
+  font-family: $default-font;
+  font-size: 16px;
+  padding: 0; margin: 0;
+
+  .container-fluid {
+    padding: 0;
+  }
+  .row {
+    margin: 0;
+  }
+  .col-1 {
+    padding: 0;
+    text-align: center;
+  }
 
   .progress-bar--material__primary {
     background-color: blueviolet;
@@ -14,6 +38,29 @@ html, body {
     background-color: darkgoldenrod;
     width: 100%;
   }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
+  h5 {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0;
+    font-weight: 300;
+
+  }
+
+  i {
+    color: white;
+  }
+
+
 }
-
-
