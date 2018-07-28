@@ -1,0 +1,23 @@
+@import '../../scss/main';
+
+.triangle {
+  position: relative;
+  margin: auto;
+  background: $color-accent;
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+}
+
+.triangle::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 10px);
+  background: $color-accent;
+  width: 10px;
+  height: 5px;
+
+  /* The points are: (left top: x y, right top: x y, center bottom: x y) */
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}

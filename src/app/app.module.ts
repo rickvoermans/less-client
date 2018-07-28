@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './menu/toolbar/toolbar.component';
 import { MainInfoComponent } from './menu/main-info/main-info.component';
-import { TabViewComponent } from './tab-view/tab-view.component';
+import { TabMenuComponent } from './tab-menu/tab-menu.component';
 import { PageCurrentComponent } from './pages/current/page-current.component';
 
 @NgModule({
@@ -11,7 +11,7 @@ import { PageCurrentComponent } from './pages/current/page-current.component';
     AppComponent,
     ToolbarComponent,
     MainInfoComponent,
-    TabViewComponent,
+    TabMenuComponent,
     PageCurrentComponent
   ],
   imports: [

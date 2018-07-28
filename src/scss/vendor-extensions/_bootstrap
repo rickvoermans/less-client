@@ -1,0 +1,28 @@
+@import "../base/standards";
+
+$primary: $color-accent;
+//$secondary:     ;
+//$success:       ;
+//$info:          ;
+//$warning:       ;
+//$danger:        ;
+$light: #eeeeee;
+//$light: #e1f2f0;
+//$light: #daf2ef;
+//$dark:          ;
+
+//$btn-border-width: 2px;
+//$btn-border-radius: 0;
+
+
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+.nav-link {
+  background-color: $color-accent;
+  border-radius: 0 !important;
+  color: $font-color-not-active;
+}
+
+.active {
+
+}

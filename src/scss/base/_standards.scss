@@ -18,7 +18,7 @@ html, body {
   font-size: 16px;
   padding: 0; margin: 0;
 
-  h1 {
+  h1 { // used for level indicator
     font-size: 2.5rem;
     font-weight: 500;
   }
@@ -28,15 +28,18 @@ html, body {
     text-align: center;
     margin: 0;
   }
-  h5 {
+
+  h5 { // used for 'dashboard' text in toolbar
     color: white;
     text-align: center;
     font-size: 1.1rem;
     margin: 0;
     font-weight: 300;
-
   }
 
+  p {
+    font-weight: 500;
+  }
   i {
     color: white;
   }
