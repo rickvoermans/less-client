@@ -1,11 +1,15 @@
 <ul class="nav nav-pills nav-fill">
-  <li class="nav-item">
-    <a class="nav-link triangle active" data-toggle="tab" href="#">Current</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link triangle" data-toggle="tab" href="#">Goals</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link triangle" data-toggle="tab" href="#">Success</a>
+  <li *ngFor="let page of pages"
+    class="nav-item">
+    <a class="nav-link"
+       (click)="switchPage(page)"
+       [ngClass]="{'triangle': getCurrPage() === page}"
+       href="#">{{ page }}</a>
   </li>
 </ul>
+
+<div [ngSwitch]="getCurrPage()">
+  <app-current *ngSwitchCase="pages[0]"></app-current>
+  <app-goals *ngSwitchCase="pages[1]"></app-goals>
+  <app-success *ngSwitchCase="pages[2]"></app-success>
+</div>

@@ -1,9 +1,8 @@
 @import '../../../scss/main';
 
-
 .summary-row {
-  border-bottom: 1px solid grey;
-  padding: $default-margin;
+  border-bottom: .5px solid rgb(208, 208, 208);
+  padding: $default-margin-y $default-margin-x;
   &:last-child {
     border: none;
   }

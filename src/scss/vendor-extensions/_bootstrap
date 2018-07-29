@@ -21,8 +21,5 @@ $light: #eeeeee;
   background-color: $color-accent;
   border-radius: 0 !important;
   color: $font-color-not-active;
-}
-
-.active {
-
+  height: 100%;
 }
