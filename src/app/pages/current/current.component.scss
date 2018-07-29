@@ -1,0 +1,26 @@
+@import '../../../scss/main';
+
+.summary-row {
+  border-bottom: .5px solid rgb(208, 208, 208);
+  padding: $default-margin-y $default-margin-x;
+  &:last-child {
+    border: none;
+  }
+
+  div {
+    clear: both;
+  }
+
+  p {
+    display: inline-block;
+    margin: 0;
+    max-width: 65%;
+  }
+  p.value {
+    color: grey;
+    float: right;
+    font: $default-font;
+    font-weight: 300;
+    max-width: 50%;
+  }
+}

@@ -1,0 +1,28 @@
+@import '../../scss/main';
+
+.triangle {
+  position: relative;
+  margin: auto;
+  background: $color-accent;
+  width: 100%;
+  text-align: center;
+}
+
+.triangle::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: calc(50% - 5px); // position in middle, minus half of the triangle width
+  background: $color-accent;
+  width: 10px;
+  height: 5px;
+
+  /* The points are: (left top: x y, right top: x y, center bottom: x y) */
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+a.triangle {
+  color: white;
+  padding: 0.5rem 1rem; // copied from Bootstrap's .nav-link class
+                        // to keep styling identical when switching from tab
+}

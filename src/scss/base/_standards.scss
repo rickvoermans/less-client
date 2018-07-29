@@ -2,7 +2,8 @@
 
 @import './typography';
 
-$default-margin: 16px; // = same as bootstraps '3' value in p-3 and m-3
+$default-margin-x: 16px; // = same as bootstraps '3' value in p-3 and m-3
+$default-margin-y: 16px; // = same as bootstraps '2' value in p-2 and m-2
 
 $color-accent: #009CFF;
 $color-accent-for-gradient: #7CB1AD;
@@ -15,10 +16,10 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: $default-font;
-  font-size: 16px;
+  font-size: 14px;
   padding: 0; margin: 0;
 
-  h1 {
+  h1 { // used for level indicator
     font-size: 2.5rem;
     font-weight: 500;
   }
@@ -28,13 +29,17 @@ html, body {
     text-align: center;
     margin: 0;
   }
-  h5 {
+
+  h5 { // used for 'dashboard' text in toolbar
     color: white;
     text-align: center;
     font-size: 1.1rem;
     margin: 0;
     font-weight: 300;
+  }
 
+  p {
+    font-weight: 500;
   }
 
   i {
